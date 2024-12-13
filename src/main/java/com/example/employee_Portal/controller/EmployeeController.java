@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:3000") // Allow React app to call API
 public class EmployeeController {
     @Autowired
-    private EmployeeService service;
+    private EmployeeService service111;
 
     // GET: Retrieve all employees
     @GetMapping
